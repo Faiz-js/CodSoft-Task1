@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    height: 15vh;
+}
+
+.navbar-links {
+    margin-left: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: #00704A;
+    color: white;
+}
+
+.content {
+    display: flex;
+}
+
+.content-text {
+    width: 50%;
+    height: 70vh;
+}
+
+.content-text h1 {
+    font-size: 3.5vw;
+    padding: 4rem 4rem 0rem 4rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.content-text p {
+    padding: 1rem 4rem 0rem 4rem;
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.content-text button {
+    background-color: #00704A;
+    color: white;
+    margin: 1rem 0rem 0rem 4rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+#starbucks {
+    color: #00704A;
+    font-weight: bold;
+}
+
+.drink-image {
+    width: 50%;
+    height: 70vh;
+}
+
+.drink-image img {
+    width: 100%;
+}
+
+.footer {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 1.5em;
+}
+
+#icons {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
